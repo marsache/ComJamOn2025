@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2e899e80-9ec3-4d6f-9eb8-6b4e2947cc49}">
+		<property name="assetPath">
+			<value>sinso.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>49.582562500000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{42993881-c1d7-4f1b-918b-054d728d4d0d}</destination>
+		</relationship>
+	</object>
+</objects>

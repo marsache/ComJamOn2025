@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e0981cbc-63c2-41b0-a746-bb88384c23cb}">
+		<property name="assetPath">
+			<value>jara cinematica 1.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>69.245249999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{42993881-c1d7-4f1b-918b-054d728d4d0d}</destination>
+		</relationship>
+	</object>
+</objects>

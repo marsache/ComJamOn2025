@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Jara/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638777141657749099
+  lastModified: 638777325672363333
   FileSizes:
   - Name: Desktop
-    Value: 802
+    Value: 850
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -38,12 +38,13 @@ MonoBehaviour:
   - {fileID: 2767760375072710452}
   EditorEvents:
   - {fileID: 1575630327563070281}
+  - {fileID: 6414852902064237152}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1337521713230278646}
   StringsBanks:
   - {fileID: -2751936442303309125}
-  cacheTime: 638777181215711477
+  cacheTime: 638777328698586898
   cacheVersion: 131846
 --- !u!114 &1337521713230278646
 MonoBehaviour:
@@ -60,7 +61,7 @@ MonoBehaviour:
   Path: Jara/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638777141657695825
+  lastModified: 638777325672332624
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -107,8 +108,35 @@ MonoBehaviour:
   Path: Jara/Build/Desktop/Songs.bank
   Name: Songs
   StudioPath: bank:/Songs
-  lastModified: 638777181215711477
+  lastModified: 638777328698586898
   FileSizes:
   - Name: Desktop
-    Value: 2366720
+    Value: 4049728
   Exists: 1
+--- !u!114 &6414852902064237152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Romeo
+  m_EditorClassIdentifier: 
+  Path: event:/Romeo
+  Guid:
+    Data1: -1258027323
+    Data2: 1303082715
+    Data3: -1203297611
+    Data4: 1561849154
+  Banks:
+  - {fileID: 2767760375072710452}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 133000

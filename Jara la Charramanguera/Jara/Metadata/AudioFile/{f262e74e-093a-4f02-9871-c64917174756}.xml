@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f262e74e-093a-4f02-9871-c64917174756}">
+		<property name="assetPath">
+			<value>Romeo_Placeholder.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>128</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{42993881-c1d7-4f1b-918b-054d728d4d0d}</destination>
+		</relationship>
+	</object>
+</objects>

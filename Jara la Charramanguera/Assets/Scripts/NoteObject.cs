@@ -21,8 +21,11 @@ public class NoteObject : MonoBehaviour
             if (canBePressed)
             {
                 gameObject.SetActive(false);
+                Destroy(this.gameObject);
             }
         }
+        if (this.transform.position.y < -7)
+            Destroy(this.gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
