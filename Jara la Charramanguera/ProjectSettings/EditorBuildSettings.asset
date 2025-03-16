@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LVLJota.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 2da0cfafcd8fcc84db46486e6a90b970
+  - enabled: 1
+    path: Assets/Scenes/LVLRomeo.unity
+    guid: 819764f2cf4f66b448aed08585ea4c79
   m_configObjects: {}
