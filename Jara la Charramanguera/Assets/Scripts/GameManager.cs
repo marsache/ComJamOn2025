@@ -22,7 +22,6 @@ public class GameManager : MonoBehaviour
             if (Input.anyKeyDown)
             {
                 startPlaying = true;
-                beatScroller.hasStarted = true;
 
                 music.Play();
             }
