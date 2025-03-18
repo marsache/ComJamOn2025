@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LVLRomeo.unity
     guid: 819764f2cf4f66b448aed08585ea4c79
+  - enabled: 1
+    path: Assets/Scenes/LVLLeon.unity
+    guid: 80d27072f0770df4ab56aa48002640fc
+  - enabled: 1
+    path: Assets/Scenes/C1.unity
+    guid: d2327d6689cecf14ca6435bfc5bfdf28
+  - enabled: 1
+    path: Assets/Scenes/C2.unity
+    guid: 7dc034dd1c04ec14ba28a34c72e34779
+  - enabled: 1
+    path: Assets/Scenes/C3.unity
+    guid: 1b70b1781d6fdc74d9079232be7973a6
+  - enabled: 1
+    path: Assets/Scenes/END.unity
+    guid: 03e68d89472171f42917621b765c1730
   m_configObjects: {}

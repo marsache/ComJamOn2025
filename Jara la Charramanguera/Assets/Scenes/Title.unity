@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f5b4d16dec7c644b0b1d71ca9a93be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eventName: Default
 --- !u!1 &541026636
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,8 +339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 0}
-  m_SizeDelta: {x: 668.6511, y: 358.7775}
+  m_AnchoredPosition: {x: -0.2965, y: 0.1591}
+  m_SizeDelta: {x: 802.7793, y: 430.7466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541026638
 MonoBehaviour:
@@ -415,8 +416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 167.1, y: -102.3}
-  m_SizeDelta: {x: 195.1542, y: 69.7395}
+  m_AnchoredPosition: {x: 200.32297, y: -122.661804}
+  m_SizeDelta: {x: 234.3012, y: 83.7289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &677322098
 MonoBehaviour:
@@ -720,8 +721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.7, y: -102.3}
-  m_SizeDelta: {x: 160, y: 69.7395}
+  m_AnchoredPosition: {x: -174.0226, y: -122.661804}
+  m_SizeDelta: {x: 192.0953, y: 83.7289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2141325934
 MonoBehaviour:
@@ -769,7 +770,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 236260892}
         m_TargetAssemblyTypeName: ScenesChange, Assembly-CSharp
-        m_MethodName: PlayScene
+        m_MethodName: Huerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

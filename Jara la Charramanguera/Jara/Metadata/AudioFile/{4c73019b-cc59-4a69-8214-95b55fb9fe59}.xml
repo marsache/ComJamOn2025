@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4c73019b-cc59-4a69-8214-95b55fb9fe59}">
+		<property name="assetPath">
+			<value>Leon.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>197.45453514739228</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{42993881-c1d7-4f1b-918b-054d728d4d0d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,6 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BeatSystem : MonoBehaviour
 {
@@ -19,14 +20,18 @@ public class BeatSystem : MonoBehaviour
     public static int beat;
     public static string marker;
 
+    public Button next;
+
     public string songName;
     public GameObject[] arrowPrefab; // Reference to the arrow prefab
     public Transform[] arrowSpawnPoints; // Define the spawn positions for arrows (lanes)
 
+    private FMOD.Studio.EventInstance instance;
+
     private void Start()
     {
         // You can assign your FMOD event instance here in Start
-        FMOD.Studio.EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/" + songName);
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/" + songName);
         AssignBeatEvent(instance);
     }
 
@@ -121,8 +126,16 @@ public class BeatSystem : MonoBehaviour
                 return 2; // Up
             case "E":
                 return 3; // Right
+            case "END":
+                next.gameObject.SetActive(true);
+                return -1;
             default:
                 return -1; // Invalid marker
         }
+    }
+
+    public FMOD.Studio.EventInstance getEventInstance()
+    {
+        return instance;
     }
 }
